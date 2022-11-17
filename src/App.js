@@ -1,16 +1,17 @@
 import React, { Component } from "react";
-import Header2 from "./components/Header/Header";
+import Header from "./components/Header/Header";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css"
+import ErrorPage from "./components/ErrorPage/ErrorPage";
 
 
 class App extends Component {
   render() {
     return (
         <Router>
-          <Header2/>
+          <Header/>
           <Routes>
-            <Route exact path="/header" element={<Header2/>} />
+            <Route path="*" element={<ErrorPage/>} />
           </Routes>
         </Router>
     );

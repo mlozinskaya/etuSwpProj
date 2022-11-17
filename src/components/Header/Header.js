@@ -1,9 +1,10 @@
 import React from "react";
+import "../../styles/header.css"
 
 export default function Navbar() {
     return (
         <nav className="navbar navbar-expand navbar-dark bg-dark">
-            <div style={{ display: "flex", justifyContent: "space-between", width: "100%"}}>
+            <div className="header_container">
                 <div>
                     <a className="navbar-nav mr-auto nav-link" href="#">
                         Button
