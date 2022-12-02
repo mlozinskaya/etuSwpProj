@@ -8,15 +8,13 @@ export default function Navbar() {
                 <div>
                     <ul className="navbar-nav mr-auto">
                         <li>
-                            <a className="nav-link" href="/home">Home</a>
+                            <a className="nav-link" href="/">Главная</a>
                         </li>
                         <li>
-                            <a className="nav-link" href="#">Link</a>
+                            <a className="nav-link" href="/forum">Форум</a>
                         </li>
                         <li>
-                            <a className="nav-link" href="#">
-                                Login
-                            </a>
+                            <a className="nav-link" href="/chat">Чат</a>
                         </li>
                     </ul>
                 </div>

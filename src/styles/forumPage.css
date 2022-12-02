@@ -1,0 +1,33 @@
+.page_background {
+    
+}
+
+.theme_container {
+    border-radius: 15px;
+    background-color: rgb(239, 206, 206);
+    margin: 20px 80px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.theme_name_container {
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.theme_status_container {
+    padding-top: 23px;
+    padding-right: 50px;
+    font-size: 15px;
+}
+
+.theme_name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.theme_author {
+    font-size: 12px;
+}

@@ -1,8 +1,7 @@
 import React from "react";
-import "../../styles/errorPage.css"
 
 export default function ErrorPage() {
     return (
-        <div>404 not found</div>
+        <div className="error_page_container">404 not found</div>
     );
 }
