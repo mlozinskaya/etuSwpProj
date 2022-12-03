@@ -11,7 +11,7 @@ export default function ForumTheme(props) {
             </div>
             <div className="theme_status_container">
                 <FontAwesomeIcon icon={faComment} />
-                <span> 3 replies</span>
+                <span> {props.replies} replies</span>
             </div>
         </div>
     );

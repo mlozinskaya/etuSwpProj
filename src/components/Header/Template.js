@@ -5,7 +5,7 @@ import { connect } from "react-redux";
 
 class Header extends Component {
     render() {
-        console.log(this.props.state);
+        console.log(this.props.actions.getThemes());
 
         return (
             <div>HEADER</div>
